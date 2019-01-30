@@ -1,0 +1,29 @@
+.btn{
+	margin-right: 15px;
+}
+
+.area{
+	margin : 15px auto;
+
+}
+
+.modal-content{
+	background-color: grey;
+	position: fixed;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid black;
+	width: 80%;
+	opacity: 1;
+	transition: opacity 1s;
+}
+.close{
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	transition: color 0.5s;
+}
+.close:hover{
+	color: black;
+}
